@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>eligibility variables</name>
+  <uuid>bd75411a-0eb0-42f0-b017-d53a2af56333</uuid>
+  <variables name="customer" type="com.avps.customerloaneligibility.Customer" initialValue="new com.avps.customerloaneligibility.Customer()" verbalization="customer"/>
+  <variables name="iseligible" type="java.lang.Boolean" initialValue="false" verbalization="eligibility flag"/>
+</ilog.rules.studio.model.base:VariableSet>

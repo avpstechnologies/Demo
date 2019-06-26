@@ -1,0 +1,15 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Vocabulary//Model"
+property uuid "103f7b68-bbe1-48c7-80da-c9fbdf848021"
+package com.avps.customerloaneligibility;
+
+
+public class Customer
+        extends java.io.Serializable
+{
+    public int age;
+    public string state;
+    public Customer();
+}
+

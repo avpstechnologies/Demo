@@ -1,0 +1,9 @@
+# Vocabulary Properties
+uuid = bc04a6e5-4a6a-4a32-925c-fbbf1d67063e
+
+# com.avps.customerloaneligibility.Customer
+com.avps.customerloaneligibility.Customer#concept.label = customer
+com.avps.customerloaneligibility.Customer.age#phrase.action = set the age of {this} to {age}
+com.avps.customerloaneligibility.Customer.age#phrase.navigation = {age} of {this}
+com.avps.customerloaneligibility.Customer.state#phrase.action = set the state of {this} to {state}
+com.avps.customerloaneligibility.Customer.state#phrase.navigation = {state} of {this}

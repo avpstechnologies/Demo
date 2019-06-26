@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="eligibilityService" usingRuleflow="true" ruleflowName="eligibility flow" usingExtractor="true" targetRuleProjectName="Eligibility">
+  <name>eligibilityService</name>
+  <uuid>fb6bbc93-fccf-4fd9-8f77-67976d92e35d</uuid>
+  <referencedVariables variableName="customer" variableSetName="eligibility variables" direction="IN_OUT">
+    <variableSet href="../rules/eligibility%20variables.var#bd75411a-0eb0-42f0-b017-d53a2af56333"/>
+  </referencedVariables>
+  <referencedVariables variableName="iseligible" variableSetName="eligibility variables" direction="IN_OUT">
+    <variableSet href="../rules/eligibility%20variables.var#bd75411a-0eb0-42f0-b017-d53a2af56333"/>
+  </referencedVariables>
+  <ruleflow href="../rules/loaneligibilitycheck/eligibility%20flow.rfl#396c1d16-51c7-43e0-994f-28bdaf283977"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="eligibilityService_extractor" validator="Test Validator"/>
+  <targetRuleProject href="../../Eligibility#3ea622db-0939-4e17-846e-868d39cf798d"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
