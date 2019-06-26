@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
-  <name>loaneligibilitycheck</name>
+  <name>loan eligibility check</name>
   <uuid>121844fa-ee80-4aab-8e52-2c32be70c3fd</uuid>
 </ilog.rules.studio.model.base:RulePackage>

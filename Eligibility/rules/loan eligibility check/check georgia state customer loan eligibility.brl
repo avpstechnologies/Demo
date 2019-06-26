@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>check georgia state customer loan eligibility</name>
+  <uuid>d7cb0d9e-701d-4dea-b701-211f2e1db5f9</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+    all of the following conditions are true :
+            - the state of customer is "Georgia"
+            - the age of customer is more than 18
+then
+    set 'eligibility flag' to true ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
