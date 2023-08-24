@@ -9,7 +9,7 @@ public class Customer implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 /*
- * age of the customer
+ * age of the customer.
  */
 	private int age;
 	/*
